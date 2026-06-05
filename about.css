@@ -1,0 +1,79 @@
+#AboutPage{
+    box-sizing:border-box;
+    min-height:100vh;
+    width:100vw;
+    background-color:lightblue;
+    text-align:center;
+    padding-top:90px;
+}
+
+#navbar{
+    background-color:royalblue;
+    width:100%;
+    height:60px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    position:fixed;
+    top:0;
+
+
+
+
+}
+#navbar ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:300px;
+    
+}
+#navbar a {
+  text-decoration: none;
+  color: #333;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+#navbar a:hover {
+    background-color:lightslategray;
+    color:white;
+    padding:10px;
+    border-radius:10px;
+    font-size:25px;
+}
+
+#MyImage{
+    width:400px;
+    height:300px;
+    border:solid maroon 5px;
+    border-radius:15px;
+}
+p{
+    font-size:30px;
+    font-style:bold;
+    font-family:Brush Script MT;
+    color:maroon;
+
+}
+h1{
+    font-size:80px;
+    color:midnightblue;
+    font-family:Brush Script MT;
+    margin-top:0;
+}
+h2{
+    font-size:50px;
+    color:midnightblue;
+    font-family:Brush Script MT;
+    margin:10px;
+}
+.PersonalityImages{
+    width:300px;
+    height:200px;
+    border:solid maroon 5px;
+    border-radius:15px;
+
+}
